@@ -1,0 +1,63 @@
+00:57:58 **** Rebuild of configuration Debug for project amit_c_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SDBAPP.o "..\\SDBAPP.c" 
+..\SDBAPP.c: In function 'SDB_APP':
+..\SDBAPP.c:34:26: warning: format '%u' expects argument of type 'unsigned int *', but argument 2 has type 'uint8 *' {aka 'unsigned char *'} [-Wformat=]
+   34 |                 scanf(" %u", &choice);
+      |                         ~^   ~~~~~~~
+      |                          |   |
+      |                          |   uint8 * {aka unsigned char *}
+      |                          unsigned int *
+      |                         %hhu
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SDB.o "..\\SDB.c" 
+..\SDB.c: In function 'SDB_ReadEntry':
+..\SDB.c:109:1: warning: control reaches end of non-void function [-Wreturn-type]
+  109 | }
+      | ^
+..\SDB.c: In function 'SDB_IsIdExist':
+..\SDB.c:134:1: warning: control reaches end of non-void function [-Wreturn-type]
+  134 | }
+      | ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o amit_c_project.o "..\\amit_c_project.c" 
+..\amit_c_project.c: In function 'main':
+..\amit_c_project.c:23:9: warning: implicit declaration of function 'SDB_APP' [-Wimplicit-function-declaration]
+   23 |         SDB_APP();
+      |         ^~~~~~~
+gcc -o amit_c_project.exe SDB.o SDBAPP.o amit_c_project.o 
+Info: Nothing to build for amit_c_project
+01:02:39 **** Incremental Build of configuration Debug for project amit_c_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SDBAPP.o "..\\SDBAPP.c" 
+..\SDBAPP.c: In function 'SDB_APP':
+..\SDBAPP.c:35:26: warning: format '%u' expects argument of type 'unsigned int *', but argument 2 has type 'uint8 *' {aka 'unsigned char *'} [-Wformat=]
+   35 |                 scanf(" %u", &choice);
+      |                         ~^   ~~~~~~~
+      |                          |   |
+      |                          |   uint8 * {aka unsigned char *}
+      |                          unsigned int *
+      |                         %hhu
+gcc -o amit_c_project.exe SDB.o SDBAPP.o amit_c_project.o 
+Info: Nothing to build for amit_c_project
+01:12:20 **** Incremental Build of configuration Debug for project amit_c_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SDB.o "..\\SDB.c" 
+gcc -o amit_c_project.exe SDB.o SDBAPP.o amit_c_project.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file amit_c_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:12:30 **** Incremental Build of configuration Debug for project amit_c_project ****
+Info: Internal Builder is used for build
+gcc -o amit_c_project.exe SDB.o SDBAPP.o amit_c_project.o 
+Info: Nothing to build for amit_c_project
+01:22:48 **** Incremental Build of configuration Debug for project amit_c_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SDB.o "..\\SDB.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SDBAPP.o "..\\SDBAPP.c" 
+..\SDBAPP.c: In function 'SDB_APP':
+..\SDBAPP.c:35:26: warning: format '%u' expects argument of type 'unsigned int *', but argument 2 has type 'uint8 *' {aka 'unsigned char *'} [-Wformat=]
+   35 |                 scanf(" %u", &choice);
+      |                         ~^   ~~~~~~~
+      |                          |   |
+      |                          |   uint8 * {aka unsigned char *}
+      |                          unsigned int *
+      |                         %hhu
+gcc -o amit_c_project.exe SDB.o SDBAPP.o amit_c_project.o 

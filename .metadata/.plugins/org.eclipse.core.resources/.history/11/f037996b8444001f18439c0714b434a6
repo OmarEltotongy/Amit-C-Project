@@ -1,0 +1,77 @@
+/*
+ ============================================================================
+ Name        : SDB.c
+ Author      : Omar Eltoutongy
+ Description : Struct Database (SDB) Functions
+ Date        : 17/7/2024
+ ============================================================================
+ */
+#include "STD.h"
+#include "SDB.h"
+
+static uint8 currentStudentCount = 0;
+static student studentDB[MAX_STUDENTS];
+
+bool SDB_IsFull ()
+{
+	if(currentStudentCount >= MAX_STUDENTS)
+	{
+		printf("YES, It is Full\n");
+		return 1;
+	}
+	else
+	{
+		printf("NO, It is not Full\n");
+		return 0;
+	}
+}
+
+uint8 SDB_GetUsedSize()
+{
+	return currentStudentCount;
+}
+bool SDB_AddEntry()
+{
+//dont add id =0;
+	if (SDB_IsFull())
+	{
+		printf("Sorry, The DB is Full\n");
+		return 0;
+	}
+	student new_student;
+	printf("Please enter the following requirement to add new entry"
+			"Student_ID, Student_year, Course1_ID, Course1_grade, Course2_ID, "
+			"Course2_grade, Course3_ID, Course3_grade\n");
+	scanf(" ")
+
+}
+void SDB_DeletEntry (uint32 id)
+{
+
+}
+bool SDB_ReadEntry (uint32 id)
+{
+
+}
+void SDB_GetList (uint8 * count, uint32 * list)
+{
+
+}
+bool SDB_IsIdExist (uint32 id)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

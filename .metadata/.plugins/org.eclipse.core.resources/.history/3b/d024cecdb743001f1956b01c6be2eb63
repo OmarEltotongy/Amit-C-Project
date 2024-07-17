@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : SDB.h
+ Author      : Omar Eltoutongy
+ Description : A Simple Db with function declaration
+ Date        : 31/3/2019
+ ============================================================================
+ */
+
+#ifndef SDB_H_
+#define SDB_H_
+#include "STD.h"
+
+typedef struct SimpleDb
+{
+uint32 Student_ID;
+uint32 Student_year;
+uint32 Course1_ID;
+uint32 Course1_grade;
+uint32 Course2_ID;
+uint32 Course2_grade;
+uint32 Course3_ID;
+uint32 Course3_grade;
+} student;
+
+
+#endif /* SDB_H_ */

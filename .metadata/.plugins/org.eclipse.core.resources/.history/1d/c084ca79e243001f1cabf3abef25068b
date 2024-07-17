@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : STD.h
+ Author      : Omar Eltoutongy
+ Description : Standard types definitions
+ Date        : 17/7/2024
+ ============================================================================
+ */
+#ifndef STD_H_
+#define STD_H_
+
+/*
+%d or %i for int
+%u for unsigned int
+%ld for long int
+%lu for unsigned long int
+%hhd for signed char
+%hhu for unsigned char
+ */
+
+typedef unsigned char uint8;
+typedef char Int8;
+typedef unsigned short uint16;
+typedef short int16;
+typedef unsigned int uint32;
+typedef int int32;
+typedef enum {false, true} bool;
+
+
+#endif /* STD_H_ */

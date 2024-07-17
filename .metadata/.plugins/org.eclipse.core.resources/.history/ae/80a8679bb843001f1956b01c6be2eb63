@@ -1,0 +1,48 @@
+/*
+ ============================================================================
+ Name        : SDB.c
+ Author      : Omar Eltoutongy
+ Description : Struct Database (SDB) Functions
+ Date        : 17/7/2024
+ ============================================================================
+ */
+
+bool SDB_IsFull ()
+{
+
+}
+
+uint8 SDB_GetUsedSize()
+{
+
+}
+bool SDB_AddEntry()
+{
+
+
+}
+void SDB_DeletEntry (uint32 id)
+{
+
+}
+bool SDB_ReadEntry (uint32 id)
+{
+
+}
+void SDB_GetList (uint8 * count, uint32 * list)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

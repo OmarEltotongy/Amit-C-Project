@@ -1,0 +1,16 @@
+/*
+ ============================================================================
+ Name        : Amit C Project
+ Author      : Omar Eltoutongy
+ Description : AMIT-C Programming Project Struct Database (SDB)
+ Date        : 31/3/2019
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+int main()
+{
+
+	return 0;
+}

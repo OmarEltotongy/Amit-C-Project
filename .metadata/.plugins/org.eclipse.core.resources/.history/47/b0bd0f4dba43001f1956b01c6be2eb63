@@ -1,0 +1,18 @@
+/*
+ ============================================================================
+ Name        : amit_c_project.c
+ Author      : Omar Eltoutongy
+ Description : AMIT-C Programming Project Struct Database (SDB)
+ Date        : 17/7/2024
+ ============================================================================
+ */
+
+#include "SDB.h"
+
+int main()
+{
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	SDB_APP();
+	return 0;
+}
